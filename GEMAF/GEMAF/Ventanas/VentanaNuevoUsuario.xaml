@@ -1,0 +1,59 @@
+﻿<Window x:Class="GEMAF.VentanaNuevoUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GEMAF"
+        mc:Ignorable="d"
+        Title="VentanaNuevoUsuario" Height="802.806" Width="524.425" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Seleccione el tipo de usuario:" HorizontalAlignment="Left" Margin="19,6,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <RadioButton x:Name="rdbAlumno" Content="Alumno" HorizontalAlignment="Left" Margin="45,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbAlumno_Checked"/>
+        <RadioButton x:Name="rdbMaestro" Content="Maestro" HorizontalAlignment="Left" Margin="193,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbMaestro_Checked"/>
+        <RadioButton x:Name="rdbAdministrador" Content="Administrador" HorizontalAlignment="Left" Margin="345,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbAdministrador_Checked"/>
+        <Label x:Name="lbNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="19,86,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="19,119,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="458" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbApPaterno" Content="Apellido paterno:" HorizontalAlignment="Left" Margin="19,145,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox x:Name="txtApPaterno" HorizontalAlignment="Left" Height="28" Margin="19,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="211" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbApMaterno" Content="Apellido materno:" HorizontalAlignment="Left" Margin="266,145,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox x:Name="txtApMaterno" HorizontalAlignment="Left" Height="28" Margin="266,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="211" FontSize="18" IsEnabled="False"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="28" Margin="19,119,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="458" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbFechaNacim" Content="Fecha de nacimiento:" HorizontalAlignment="Left" Margin="19,212,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <DatePicker x:Name="dtpFechaNacim" Margin="217,214,0,0" VerticalAlignment="Top" Width="260" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbCorreo" Content="Correo electrónico:" HorizontalAlignment="Left" Margin="19,243,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="28" Margin="19,276,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="458" FontSize="18" IsEnabled="False"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="28" Margin="19,276,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="458" FontSize="18" IsEnabled="False"/>
+        <ComboBox x:Name="cmbNivelCurso" HorizontalAlignment="Left" Margin="152,312,0,0" VerticalAlignment="Top" Width="126" FontSize="18" IsEnabled="False">
+            <ComboBoxItem Content="A1.1"/>
+            <ComboBoxItem Content="A1.2"/>
+            <ComboBoxItem Content="A1.3"/>
+            <ComboBoxItem Content="A2.1"/>
+            <ComboBoxItem Content="A2.2"/>
+            <ComboBoxItem Content="A2.3"/>
+            <ComboBoxItem Content="B1.1"/>
+            <ComboBoxItem Content="B1.2"/>
+            <ComboBoxItem Content="B1.3"/>
+            <ComboBoxItem Content="B1.4"/>
+            <ComboBoxItem Content="B1.5"/>
+            <ComboBoxItem Content="B1.6"/>
+            <ComboBoxItem Content="B2.1"/>
+            <ComboBoxItem Content="B2.2"/>
+            <ComboBoxItem Content="B2.3"/>
+            <ComboBoxItem Content="B2.4"/>
+            <ComboBoxItem Content="B2.5"/>
+            <ComboBoxItem Content="B2.6"/>
+        </ComboBox>
+        <Label x:Name="lbNivelCurso" Content="Nivel y curso:" HorizontalAlignment="Left" Margin="19,309,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <Label x:Name="lbUserActual" Content="Nombre de usuario administrador actual:" HorizontalAlignment="Left" Margin="19,361,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox x:Name="txtUserActual" HorizontalAlignment="Left" Height="28" Margin="19,394,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="358" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbPasswordActual" Content="Contraseña de usuario administrador actual:" HorizontalAlignment="Left" Margin="19,421,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <Label x:Name="lbNuevoUser" Content="Nuevo nombre de usuario administrador:" HorizontalAlignment="Left" Margin="19,482,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <TextBox x:Name="txtNuevoUser" HorizontalAlignment="Left" Height="28" Margin="19,515,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="358" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbNuevoPassword" Content="Nueva contraseña de usuario administrador:" HorizontalAlignment="Left" Margin="19,542,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <Label x:Name="lbConfirmarNuevoPassword" Content="Confirme la nueva contraseña:" HorizontalAlignment="Left" Margin="19,606,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False"/>
+        <PasswordBox x:Name="pwdConfirmarNuevoPassword" HorizontalAlignment="Left" Height="27" Margin="19,645,0,0" VerticalAlignment="Top" Width="267" FontSize="18" IsEnabled="False"/>
+        <PasswordBox x:Name="pwdNuevoPassword" HorizontalAlignment="Left" Height="27" Margin="19,581,0,0" VerticalAlignment="Top" Width="267" FontSize="18" IsEnabled="False"/>
+        <PasswordBox x:Name="pwdPasswordActual" HorizontalAlignment="Left" Height="27" Margin="19,460,0,0" VerticalAlignment="Top" Width="267" FontSize="18" IsEnabled="False"/>
+        <Button x:Name="btnAgregarUsuario" Content="Agregar usuario" HorizontalAlignment="Left" Height="68" Margin="170,690,0,0" VerticalAlignment="Top" Width="167" FontSize="18" IsEnabled="False" Click="BtnAgregarUsuario_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="GEMAF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GEMAF"
+        mc:Ignorable="d"
+        Title="Iniciar sesión" Height="350" Width="300" Background="#FFCACACA" Foreground="Black" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="22" Margin="151,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <PasswordBox x:Name="pwdBox" HorizontalAlignment="Left" Margin="151,204,0,0" VerticalAlignment="Top" Width="120" Height="22" FontSize="14"/>
+        <Label x:Name="label" Content="Nombre de usuario:" HorizontalAlignment="Left" Margin="18,161,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label_Copy" Content="Contraseña:" HorizontalAlignment="Left" Margin="66,200,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="btnAcceder" Content="Acceder" HorizontalAlignment="Left" Margin="106,257,0,0" VerticalAlignment="Top" Width="89" Height="40" Background="#FF0029D4" Click="BtnAcceder_Click" Foreground="White" FontWeight="Bold"/>
+        <DockPanel HorizontalAlignment="Left" Height="108" LastChildFill="False" VerticalAlignment="Top" Width="294" Margin="0,0,-0.4,0" Background="White"/>
+        <DockPanel HorizontalAlignment="Left" Height="43" LastChildFill="False" VerticalAlignment="Top" Width="294" Margin="0,102,-0.4,0" Background="#FFAE1E1E"/>
+        <Label x:Name="label1" Content="Iniciar sesión" HorizontalAlignment="Left" Height="31" Margin="80,108,0,0" VerticalAlignment="Top" Width="142" FontFamily="Arial" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="94" Margin="87,6,0,0" VerticalAlignment="Top" Width="117" Source="Imagenes/AF MERIDA LOGO.png"/>
+    </Grid>
+</Window>
