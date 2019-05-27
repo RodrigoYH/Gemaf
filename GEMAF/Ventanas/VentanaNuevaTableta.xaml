@@ -1,0 +1,25 @@
+﻿<Window x:Class="GEMAF.VentanaNuevaTableta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GEMAF"
+        mc:Ignorable="d"
+        Title="Nouvelle tablette | GEMAF" Height="318.292" Width="509.146" Background="#FFCDCDCD" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" Height="289" LastChildFill="False" VerticalAlignment="Top" Width="109" Margin="0,0,0,-0.2">
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF650000"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+        </DockPanel>
+        <Label x:Name="label_Copy" Content="ID de tablette:" HorizontalAlignment="Left" Margin="127,36,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="Modèle de tablette:" HorizontalAlignment="Left" Margin="125,101,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="txtIDTableta" HorizontalAlignment="Left" Height="29" Margin="262,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" FontSize="18" Background="White" BorderBrush="Black"/>
+        <TextBox x:Name="txtModelo" HorizontalAlignment="Left" Height="29" Margin="125,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontSize="18" Background="White" BorderBrush="Black"/>
+        <Button x:Name="txtAgregarTableta" Content="Ajouter la tablette" HorizontalAlignment="Left" Height="60" Margin="207,196,0,0" VerticalAlignment="Top" Width="178" FontFamily="Arial" FontSize="18" FontWeight="Bold" Cursor="Hand" Foreground="White" Background="#FFB40000" BorderBrush="Black" Click="TxtAgregarTableta_Click"/>
+
+    </Grid>
+</Window>
