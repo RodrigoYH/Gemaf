@@ -26,12 +26,14 @@ namespace GEMAF
 
 		private void RdbAlumno_Checked(object sender, RoutedEventArgs e)
 		{
+			lbMatricula.IsEnabled = true;
 			lbNombre.IsEnabled = true;
 			lbApPaterno.IsEnabled = true;
 			lbApMaterno.IsEnabled = true;
 			lbFechaNacim.IsEnabled = true;
 			lbCorreo.IsEnabled = true;
 			lbNivelCurso.IsEnabled = true;
+			txtMatricula.IsEnabled = true;
 			txtNombre.IsEnabled = true;
 			txtApPaterno.IsEnabled = true;
 			txtApMaterno.IsEnabled = true;
@@ -54,15 +56,17 @@ namespace GEMAF
 
 		private void RdbMaestro_Checked(object sender, RoutedEventArgs e)
 		{
+			lbMatricula.IsEnabled = true;
 			lbNombre.IsEnabled = true;
 			lbApPaterno.IsEnabled = true;
-			lbApMaterno.IsEnabled = true;
+			lbApMaterno.IsEnabled = false;
 			lbFechaNacim.IsEnabled = true;
 			lbCorreo.IsEnabled = true;
 			lbNivelCurso.IsEnabled = false;
+			txtMatricula.IsEnabled = true;
 			txtNombre.IsEnabled = true;
 			txtApPaterno.IsEnabled = true;
-			txtApMaterno.IsEnabled = true;
+			txtApMaterno.IsEnabled = false;
 			dtpFechaNacim.IsEnabled = true;
 			txtCorreo.IsEnabled = true;
 			cmbNivelCurso.IsEnabled = false;
@@ -93,6 +97,8 @@ namespace GEMAF
 			txtApMaterno.IsEnabled = true;
 			dtpFechaNacim.IsEnabled = true;
 			txtCorreo.IsEnabled = true;
+			lbMatricula.IsEnabled = false;
+			txtMatricula.IsEnabled = false;
 			cmbNivelCurso.IsEnabled = false;
 			btnAgregarUsuario.IsEnabled = true;
 
@@ -107,17 +113,30 @@ namespace GEMAF
 			pwdNuevoPassword.IsEnabled = true;
 			pwdConfirmarNuevoPassword.IsEnabled = true;
 
-			MessageBox.Show("Se agregará un nuevo usuario administrador, " +
-				"esto implica que el usuario administrador actual se elimine, ya que solo " +
-	"puede haber un usario administrador a la vez. Para porceder con esta operación, es necesario " +
- "que el usuario administrador actual esté presente para escribir sus datos de acceso a GEMAF y autorizar " +
- "el registro del nuevo usuario administrador", "", MessageBoxButton.OK, MessageBoxImage.Warning);
+			MessageBox.Show("Un nouvel administrateur sera ajouté, " +
+				"cela implique que l'administrateur actuel " +
+	"est supprimé car il ne peut y avoir qu'un seul administrateur" +
+ " à la fois. La présence de l'administrateur actuel est " +
+ "nécessaire pour autoriser l'enregistrement du nouvel administrateur dans le logiciel GEMAF.", "",
+ MessageBoxButton.OK, MessageBoxImage.Warning);
 		}
 
 		private void BtnAgregarUsuario_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Usuario registrado correctamente");
-			this.Close();
+			if(rdbAlumno.IsChecked==false || rdbMaestro.IsChecked==false || rdbAdministrador.IsChecked==false
+				 || txtMatricula.Text=="" || txtNombre.Text=="" || txtApPaterno.Text==""
+				  || txtApMaterno.Text=="" || dtpFechaNacim.Text=="" || txtCorreo.Text==""
+				  || txtUserActual.Text=="" || pwdPasswordActual.Password=="" || txtNuevoUser.Text==""
+				  || pwdNuevoPassword.Password=="" || pwdConfirmarNuevoPassword.Password=="")
+			{
+				MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""
+					, MessageBoxButton.OK, MessageBoxImage.Warning);
+			}
+			else
+			{
+				MessageBox.Show("Utilisateur ajouté avec succès");
+				this.Close();
+			}
 		}
 	}
 }

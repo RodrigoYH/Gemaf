@@ -5,24 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="VentanaDevolucion" Height="609.146" Width="1047.342" WindowStartupLocation="CenterScreen">
+        Title="Retour de l'article | GEMAF" Height="779.258" Width="1140.388" WindowStartupLocation="CenterScreen" Background="#FFE7E7E7">
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="31" Margin="280,35,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="206" FontSize="18"/>
-        <Label x:Name="label" Content="ID del artículo:" HorizontalAlignment="Left" Margin="141,30,0,0" VerticalAlignment="Top" FontSize="18" Width="184"/>
-        <Button x:Name="button" Content="Buscar préstamo" HorizontalAlignment="Left" Height="43" Margin="521,30,0,0" VerticalAlignment="Top" Width="134"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="344" Margin="20,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="484"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="344" Margin="521,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="484"/>
-        <Label x:Name="label1" Content="Título:" HorizontalAlignment="Left" Margin="33,97,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy" Content="Tipo:" HorizontalAlignment="Left" Margin="33,170,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy1" Content="Categoría:" HorizontalAlignment="Left" Margin="33,247,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy2" Content="Sección en la mediateca:" HorizontalAlignment="Left" Margin="33,319,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy3" Content="Nombre:" HorizontalAlignment="Left" Margin="542,97,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy4" Content="Apellidos:" HorizontalAlignment="Left" Margin="542,170,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy5" Content="Curso:" HorizontalAlignment="Left" Margin="542,247,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Label x:Name="label1_Copy6" Content="Fecha de devolución:" HorizontalAlignment="Left" Margin="542,319,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="89" Margin="20,466,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="627" FontSize="18"/>
-        <Label x:Name="label1_Copy7" Content="En caso de atraso de devolución, escriba la penalización correspondiente:" HorizontalAlignment="Left" Margin="20,432,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="btnRegistrarDevolucion" Content="Registrar devolución" HorizontalAlignment="Left" Height="83" Margin="819,472,0,0" VerticalAlignment="Top" Width="186" FontSize="18" Click="BtnRegistrarDevolucion_Click"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="31" Margin="374,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="18" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="Black"/>
+        <Label x:Name="label" Content="ID d'article:" HorizontalAlignment="Left" Margin="261,30,0,0" VerticalAlignment="Top" FontSize="18" Width="134" FontWeight="Bold" Foreground="Black"/>
+        <Button x:Name="txtBuscarPrestamo" Content="Chercher le prêt" HorizontalAlignment="Left" Height="54" Margin="627,18,0,0" VerticalAlignment="Top" Width="134" Background="#FFB40000" BorderBrush="Black" FontWeight="Bold" Foreground="White" FontSize="14" Cursor="Hand" RenderTransformOrigin="-0.213,0.86"/>
+        <Rectangle Fill="#FFCDCDCD" HorizontalAlignment="Left" Height="470" Margin="126,88,0,0" Stroke="Black" VerticalAlignment="Top" Width="484"/>
+        <Rectangle Fill="#FFCDCDCD" HorizontalAlignment="Left" Height="470" Margin="627,88,0,0" Stroke="Black" VerticalAlignment="Top" Width="484"/>
+        <Label x:Name="label1" Content="Titre:" HorizontalAlignment="Left" Margin="147,147,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy" Content="Type:" HorizontalAlignment="Left" Margin="147,220,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy1" Content="Catégorie:" HorizontalAlignment="Left" Margin="147,297,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy2" Content="Section:" HorizontalAlignment="Left" Margin="147,369,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy3" Content="Prénom:" HorizontalAlignment="Left" Margin="648,149,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy4" Content="Noms:" HorizontalAlignment="Left" Margin="648,208,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy5" Content="Niveau et cours:" HorizontalAlignment="Left" Margin="648,269,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy6" Content="Date limite pour retourner l'article:" HorizontalAlignment="Left" Margin="648,329,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="txtPenalizacion" HorizontalAlignment="Left" Height="140" Margin="126,596,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="758" FontSize="18" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="Black"/>
+        <Label x:Name="label1_Copy7" Content="Commentaires:" HorizontalAlignment="Left" Margin="126,560,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Foreground="Black"/>
+        <Button x:Name="btnRegistrarDevolucion" Content="Enregistrer le retour" HorizontalAlignment="Left" Height="83" Margin="912,624,0,0" VerticalAlignment="Top" Width="199" FontSize="18" Click="BtnRegistrarDevolucion_Click" Background="#FFB40000" BorderBrush="Black" FontWeight="Bold" Foreground="White" Cursor="Hand"/>
+        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="31" Margin="149,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtTipo" HorizontalAlignment="Left" Height="31" Margin="149,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtCategoria" HorizontalAlignment="Left" Height="31" Margin="149,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtSeccion" HorizontalAlignment="Left" Height="31" Margin="149,406,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="31" Margin="648,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="31" Margin="648,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtNivelCurso" HorizontalAlignment="Left" Height="31" Margin="648,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtFechaDevolucion" HorizontalAlignment="Left" Height="31" Margin="648,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="379" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <Label x:Name="label1_Copy8" Content="Location:" HorizontalAlignment="Left" Margin="147,444,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="txtLocacion" HorizontalAlignment="Left" Height="31" Margin="149,481,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <Label x:Name="label1_Copy9" Content="Date de retour d'utilisateur:" HorizontalAlignment="Left" Margin="648,388,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="txtFechaDevolucion_Copy" HorizontalAlignment="Left" Height="31" Margin="648,421,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="379" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <DockPanel HorizontalAlignment="Left" Height="750" LastChildFill="False" VerticalAlignment="Top" Width="109" Margin="0,0,0,-0.4">
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF650000"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+        </DockPanel>
+        <Label x:Name="label1_Copy10" Content="Nombre de sanctions:" HorizontalAlignment="Left" Margin="648,456,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="txtFechaDevolucion_Copy1" HorizontalAlignment="Left" Height="31" Margin="844,459,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>
+        <CheckBox x:Name="checkBox" Content="Désactiver l'utilisateur" HorizontalAlignment="Left" Margin="766,516,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="DONNÉES D'ARTICLE:" HorizontalAlignment="Left" Margin="249,88,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" FontStyle="Italic"/>
+        <Label x:Name="label2_Copy" Content="DONNÉES D'UTILISATEUR:" HorizontalAlignment="Left" Margin="755,88,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" FontStyle="Italic"/>
 
     </Grid>
 </Window>

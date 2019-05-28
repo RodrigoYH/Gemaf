@@ -26,7 +26,7 @@ namespace GEMAF
 
 		private void BtnRegistrarDevolucion_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Devolución de artículo registrado correctamente");
+			MessageBox.Show("Retour de l'article correctement enregistré");
 			this.Close();
 		}
 	}

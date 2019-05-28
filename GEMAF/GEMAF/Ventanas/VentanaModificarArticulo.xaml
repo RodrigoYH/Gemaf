@@ -5,38 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="VentanaModificarArticulo" Height="679.686" Width="562.362" WindowStartupLocation="CenterScreen">
+        Title="Modifier l'article | GEMAF" Height="644.873" Width="653.539" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD" Loaded="Window_Loaded">
     <Grid>
-        <Label x:Name="label" Content="ID del artículo:" HorizontalAlignment="Left" Margin="20,22,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy" Content="Título:" HorizontalAlignment="Left" Margin="20,150,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy1" Content="Autor/Director:" HorizontalAlignment="Left" Margin="20,211,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy2" Content="Clasificación:" HorizontalAlignment="Left" Margin="20,273,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy3" HorizontalAlignment="Left" Margin="20,311,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy4" Content="Categoría:" HorizontalAlignment="Left" Margin="20,337,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy5" Content="Sección:" HorizontalAlignment="Left" Margin="20,399,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy6" Content="Locación:" HorizontalAlignment="Left" Margin="20,467,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="29" Margin="148,27,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="206" FontSize="18"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="29" Margin="82,154,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="432" FontSize="18"/>
-        <Label x:Name="label_Copy7" Content="Tipo:" HorizontalAlignment="Left" Margin="95,61,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <Label x:Name="label_Copy8" HorizontalAlignment="Left" Margin="35,99,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
-        <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Height="29" Margin="148,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="129" FontSize="18"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="31" Margin="148,276,0,0" VerticalAlignment="Top" Width="99" FontSize="18">
-            <ComboBoxItem Content="Libros"/>
-            <ComboBoxItem Content="Películas"/>
+        <Label x:Name="label" Content="ID d'article:" HorizontalAlignment="Left" Margin="166,22,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="Titre:" HorizontalAlignment="Left" Margin="130,150,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="Auteur/Directeur:" HorizontalAlignment="Left" Margin="120,211,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy2" Content="Classification:" HorizontalAlignment="Left" Margin="130,276,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy3" HorizontalAlignment="Left" Margin="114,311,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
+        <Label x:Name="label_Copy4" Content="Catégorie:" HorizontalAlignment="Left" Margin="161,342,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy5" Content="Section:" HorizontalAlignment="Left" Margin="181,402,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy6" Content="Location:" HorizontalAlignment="Left" Margin="169,464,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="29" Margin="286,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" FontSize="18" Background="White" BorderBrush="Black" IsReadOnly="True"/>
+        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="29" Margin="192,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" FontSize="18" Background="White" BorderBrush="Black"/>
+        <Label x:Name="label_Copy7" Content="Type:" HorizontalAlignment="Left" Margin="223,61,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+        <Label x:Name="label_Copy8" HorizontalAlignment="Left" Margin="129,99,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic"/>
+        <TextBox x:Name="txtTipo" HorizontalAlignment="Left" Height="29" Margin="286,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" FontSize="18" Background="White" BorderBrush="Black" IsReadOnly="True" TextChanged="TxtTipo_TextChanged"/>
+        <ComboBox x:Name="cmbClasificacion" HorizontalAlignment="Left" Height="31" Margin="266,279,0,0" VerticalAlignment="Top" Width="79" FontSize="18" Background="White" BorderBrush="Black">
+            <ComboBoxItem Content="AA"/>
+            <ComboBoxItem Content="A"/>
+            <ComboBoxItem Content="B"/>
+            <ComboBoxItem Content="B-15"/>
+            <ComboBoxItem Content="C"/>
+            <ComboBoxItem Content="D"/>
         </ComboBox>
-        <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Height="31" Margin="115,340,0,0" VerticalAlignment="Top" Width="271" FontSize="16">
-            <ComboBoxItem Content="Libros"/>
-            <ComboBoxItem Content="Películas"/>
+        <ComboBox x:Name="cmbCategoria" HorizontalAlignment="Left" Height="31" Margin="266,345,0,0" VerticalAlignment="Top" Width="271" FontSize="16" Background="White" BorderBrush="Black">
+
         </ComboBox>
-        <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Height="31" Margin="97,402,0,0" VerticalAlignment="Top" Width="289" FontSize="16">
-            <ComboBoxItem Content="Libros"/>
-            <ComboBoxItem Content="Películas"/>
+        <ComboBox x:Name="cmbSeccion" HorizontalAlignment="Left" Height="31" Margin="266,405,0,0" VerticalAlignment="Top" Width="289" FontSize="16" Background="White" BorderBrush="Black">
+
         </ComboBox>
-        <ComboBox x:Name="comboBox_Copy2" HorizontalAlignment="Left" Height="31" Margin="115,469,0,0" VerticalAlignment="Top" Width="324" FontSize="16">
-            <ComboBoxItem Content="Libros"/>
-            <ComboBoxItem Content="Películas"/>
+        <ComboBox x:Name="cmbLocacion" HorizontalAlignment="Left" Height="31" Margin="266,464,0,0" VerticalAlignment="Top" Width="324" FontSize="16" Background="White" BorderBrush="Black">
+
         </ComboBox>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="29" Margin="152,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="362" FontSize="18"/>
-        <Button x:Name="btnGuardar" Content="Guardar cambios" HorizontalAlignment="Left" Height="54" Margin="188,547,0,0" VerticalAlignment="Top" Width="179" FontSize="18" Click="BtnGuardar_Click_1"/>
+        <TextBox x:Name="txtAutorDirector" HorizontalAlignment="Left" Height="29" Margin="286,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="18" Background="White" BorderBrush="Black"/>
+        <Button x:Name="btnGuardar" Content="Enregistrer les modifications" HorizontalAlignment="Left" Height="67" Margin="247,527,0,0" VerticalAlignment="Top" Width="269" FontSize="18" Click="BtnGuardar_Click_1" FontWeight="Bold" Background="#FFB40000" Foreground="White" Cursor="Hand" BorderBrush="Black"/>
+        <DockPanel HorizontalAlignment="Left" Height="615" LastChildFill="False" VerticalAlignment="Top" Width="109">
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF650000"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+        </DockPanel>
     </Grid>
 </Window>

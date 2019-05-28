@@ -26,12 +26,22 @@ namespace GEMAF
 
 		private void BtnAutorizarPrestamo_Click(object sender, RoutedEventArgs e)
 		{
-
+			if(txtIdLibro.Text=="" || txtTitulo.Text=="" || txtAutor.Text=="" || txtCategoria.Text==""
+				 || txtSeccion.Text=="" || txtLocacion.Text=="" || txtNombre.Text==""
+				 || txtTelefono.Text=="" || txtCorreo.Text=="")
+			{
+				MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""
+					, MessageBoxButton.OK, MessageBoxImage.Warning);
+			}
+			else
+			{
+				MessageBox.Show("Prêt dans chambre autorisée");
+			}
 		}
 
 		private void BtnFinalizarPrestamo_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Prestamo finalizado correctamente");
+			MessageBox.Show("Prêt dans chambre terminée avec succès");
 		}
 	}
 }

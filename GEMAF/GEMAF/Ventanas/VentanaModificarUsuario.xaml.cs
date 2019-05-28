@@ -35,8 +35,34 @@ namespace GEMAF
 
 		private void BtnGuardarCambios_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Datos guardados correctamente");
-			this.Close();
+			if(txtTipoUsuario.Text=="Étudiant")
+			{
+				if (txtNombre.Text == "" || txtApPaterno.Text == "" || txtApMaterno.Text == ""
+				|| dtpFechaNacim.Text == "" || txtCorreo.Text == "" || cmbNivelCurso.Text == "")
+				{
+					MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""
+						, MessageBoxButton.OK, MessageBoxImage.Warning);
+				}
+				else
+				{
+					MessageBox.Show("Données sauvegardées correctement");
+					this.Close();
+				}
+			}
+			else if(txtTipoUsuario.Text=="Professeur")
+			{
+				if (txtNombre.Text == "" || txtApPaterno.Text == "" || txtApMaterno.Text == ""
+				|| dtpFechaNacim.Text == "" || txtCorreo.Text == "")
+				{
+					MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""
+						, MessageBoxButton.OK, MessageBoxImage.Warning);
+				}
+				else
+				{
+					MessageBox.Show("Données sauvegardées correctement");
+					this.Close();
+				}
+			}
 		}
 	}
 }

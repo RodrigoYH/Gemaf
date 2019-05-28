@@ -26,8 +26,20 @@ namespace GEMAF
 
 		private void BtnAceptarFinalizar_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Prestamo realizado correctamente");
-			this.Close();
+			if(txtID.Text=="" || txtMatricula.Text=="" || txtTitulo.Text=="" || txtTipo.Text==""
+				 || txtCategoria.Text=="" || txtSeccion.Text=="" || txtLocacion.Text==""
+				  || txtNombre.Text=="" || txtApellidos.Text=="" || txtNivelCurso.Text==""
+				   || txtNoSanciones.Text=="" || txtInhabilitado.Text=="" || txtFechaPrestamo.Text==""
+				    || txtFechaDevolucion.Text=="")
+			{
+				MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""
+					, MessageBoxButton.OK, MessageBoxImage.Warning);
+			}
+			else
+			{
+				MessageBox.Show("Prêt fait correctement");
+				this.Close();
+			}
 		}
 	}
 }

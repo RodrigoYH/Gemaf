@@ -29,3 +29,7 @@ C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaPrestamosEnSala.g.c
 C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaPrestamosEnSala.baml
 C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaModificarUsuario.g.cs
 C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaModificarUsuario.baml
+C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaGestionTabletas.g.cs
+C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaGestionTabletas.baml
+C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaNuevaTableta.g.cs
+C:\Users\rodri\Desktop\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaNuevaTableta.baml
