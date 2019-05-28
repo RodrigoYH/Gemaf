@@ -28,12 +28,7 @@ namespace GEMAF
 
 		private void BtnAcceder_Click(object sender, RoutedEventArgs e)
 		{
-
-			VentanaMenu menu = new VentanaMenu();
-			menu.Show();
-			this.Hide();
-
-			/*if(txtUsuario.Text=="" || pwdBox.Password=="")
+			if(txtUsuario.Text=="" || pwdBox.Password=="")
 			{
 				MessageBox.Show("Escriba la información solicitada para poder acceder a GEMAF", "",
 						 MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -60,7 +55,7 @@ namespace GEMAF
 					pwdBox.Password = "";
 					intentos = intentos - 1;
 				}
-			}*/
+			}
 		}
 
 		private void Window_Closed(object sender, EventArgs e)
