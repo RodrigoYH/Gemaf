@@ -34,7 +34,6 @@ namespace GEMAF
 		{
 			VentanaModificarArticulo modifArt = new VentanaModificarArticulo();
 			modifArt.ShowDialog();
-			//NFÑAKUVwlsrvad.ftNHGVATDNB
 		}
 
 		private void BtnElliminarArt_Click(object sender, RoutedEventArgs e)
@@ -275,7 +274,7 @@ namespace GEMAF
 
 		private void BtnBusquedaRapidaCatalogo_Click(object sender, RoutedEventArgs e)
 		{
-			//REALIZAR BUSQUEDA RÁPIDA DE CATALOGO
+			
 		}
 
 		private void CmbTiposUsuarios_SelectionChanged(object sender, SelectionChangedEventArgs e)
