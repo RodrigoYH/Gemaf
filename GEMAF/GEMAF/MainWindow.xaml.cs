@@ -30,7 +30,7 @@ namespace GEMAF
 		{
 			if(txtUsuario.Text=="" || pwdBox.Password=="")
 			{
-				MessageBox.Show("Escriba la información solicitada para poder acceder a GEMAF", "",
+				MessageBox.Show("Entrez les informations demandées pour accéder à GEMAF", "",
 						 MessageBoxButton.OK, MessageBoxImage.Warning);
 			}
 			else if(txtUsuario.Text=="administrador" && pwdBox.Password=="af2019")
@@ -43,13 +43,13 @@ namespace GEMAF
 			{
 				if(intentos==0)
 				{
-					MessageBox.Show("ACCESO BLOQUEADO.\nINTENTELO MÁS TARDE", "",
+					MessageBox.Show("ACCÈS BLOQUÉ.\nESSAYER PLUS TARD", "",
 						 MessageBoxButton.OK, MessageBoxImage.Error);
 					App.Current.Shutdown();
 				}
 				else
 				{
-					MessageBox.Show("Usuario y contraseña incorrectos", "",
+					MessageBox.Show("Nom d'utilisateur et mot de passe incorrects", "",
 						 MessageBoxButton.OK, MessageBoxImage.Warning);
 					txtUsuario.Text = "";
 					pwdBox.Password = "";
