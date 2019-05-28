@@ -34,6 +34,7 @@ namespace GEMAF
 		{
 			VentanaModificarArticulo modifArt = new VentanaModificarArticulo();
 			modifArt.ShowDialog();
+			//NFÑAKUVwlsrvad.ftNHGVATDNB
 		}
 
 		private void BtnElliminarArt_Click(object sender, RoutedEventArgs e)
