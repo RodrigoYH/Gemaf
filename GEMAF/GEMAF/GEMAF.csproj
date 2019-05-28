@@ -177,5 +177,8 @@
   <ItemGroup>
     <Resource Include="Imagenes\USUARIO.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\AF ICONO.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

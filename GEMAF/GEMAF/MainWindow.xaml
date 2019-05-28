@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Iniciar sesión" Height="350" Width="300" Background="#FFCACACA" Foreground="Black" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+        Title="S'identifier | GEMAF" Height="350" Width="300" Background="#FFCACACA" Foreground="Black" WindowStartupLocation="CenterScreen" Closed="Window_Closed" Icon="Imagenes/AF ICONO.png">
     <Grid>
         <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="22" Margin="140,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="131" FontSize="14"/>
         <PasswordBox x:Name="pwdBox" HorizontalAlignment="Left" Margin="151,204,0,0" VerticalAlignment="Top" Width="120" Height="22" FontSize="14"/>
