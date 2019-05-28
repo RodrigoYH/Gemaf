@@ -274,17 +274,7 @@ namespace GEMAF
 
 		private void BtnBusquedaRapidaCatalogo_Click(object sender, RoutedEventArgs e)
 		{
-			if(cmbLibrosPeliculas.Text=="" || cmbOpcionesBusqueda.Text=="" 
-				|| txtBusquedaCatalogo.Text=="")
-			{
-				MessageBox.Show("Para realizar una búsqueda rápida, debe seleccionar que " +
-					"artículos desea mostrar, la forma de búsqueda y escribir el dato de búsqueda", "",
-					 MessageBoxButton.OK, MessageBoxImage.Warning);
-			}
-			else
-			{
-
-			}
+			//REALIZAR BUSQUEDA RÁPIDA DE CATALOGO
 		}
 
 		private void CmbTiposUsuarios_SelectionChanged(object sender, SelectionChangedEventArgs e)
