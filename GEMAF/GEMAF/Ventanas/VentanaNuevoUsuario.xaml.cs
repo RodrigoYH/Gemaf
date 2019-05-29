@@ -26,14 +26,12 @@ namespace GEMAF
 
 		private void RdbAlumno_Checked(object sender, RoutedEventArgs e)
 		{
-			lbMatricula.IsEnabled = true;
 			lbNombre.IsEnabled = true;
 			lbApPaterno.IsEnabled = true;
 			lbApMaterno.IsEnabled = true;
 			lbFechaNacim.IsEnabled = true;
 			lbCorreo.IsEnabled = true;
 			lbNivelCurso.IsEnabled = true;
-			txtMatricula.IsEnabled = true;
 			txtNombre.IsEnabled = true;
 			txtApPaterno.IsEnabled = true;
 			txtApMaterno.IsEnabled = true;
@@ -56,14 +54,12 @@ namespace GEMAF
 
 		private void RdbMaestro_Checked(object sender, RoutedEventArgs e)
 		{
-			lbMatricula.IsEnabled = true;
 			lbNombre.IsEnabled = true;
 			lbApPaterno.IsEnabled = true;
 			lbApMaterno.IsEnabled = false;
 			lbFechaNacim.IsEnabled = true;
 			lbCorreo.IsEnabled = true;
 			lbNivelCurso.IsEnabled = false;
-			txtMatricula.IsEnabled = true;
 			txtNombre.IsEnabled = true;
 			txtApPaterno.IsEnabled = true;
 			txtApMaterno.IsEnabled = false;
@@ -97,8 +93,6 @@ namespace GEMAF
 			txtApMaterno.IsEnabled = true;
 			dtpFechaNacim.IsEnabled = true;
 			txtCorreo.IsEnabled = true;
-			lbMatricula.IsEnabled = false;
-			txtMatricula.IsEnabled = false;
 			cmbNivelCurso.IsEnabled = false;
 			btnAgregarUsuario.IsEnabled = true;
 
@@ -124,9 +118,9 @@ namespace GEMAF
 		private void BtnAgregarUsuario_Click(object sender, RoutedEventArgs e)
 		{
 			if(rdbAlumno.IsChecked==false || rdbMaestro.IsChecked==false || rdbAdministrador.IsChecked==false
-				 || txtMatricula.Text=="" || txtNombre.Text=="" || txtApPaterno.Text==""
-				  || txtApMaterno.Text=="" || dtpFechaNacim.Text=="" || txtCorreo.Text==""
-				  || txtUserActual.Text=="" || pwdPasswordActual.Password=="" || txtNuevoUser.Text==""
+				 || txtNombre.Text=="" || txtApPaterno.Text=="" || txtApMaterno.Text=="" 
+				 || dtpFechaNacim.Text=="" || txtCorreo.Text=="" || txtUserActual.Text=="" 
+				 || pwdPasswordActual.Password=="" || txtNuevoUser.Text==""
 				  || pwdNuevoPassword.Password=="" || pwdConfirmarNuevoPassword.Password=="")
 			{
 				MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""

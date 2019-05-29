@@ -11,17 +11,17 @@
         <RadioButton x:Name="rdbAlumno" Content="Étudiant" HorizontalAlignment="Left" Margin="141,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbAlumno_Checked" FontWeight="Bold" Background="White" Foreground="Black" BorderBrush="Black"/>
         <RadioButton x:Name="rdbMaestro" Content="Professeur" HorizontalAlignment="Left" Margin="275,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbMaestro_Checked" FontWeight="Bold" Background="White" Foreground="Black" BorderBrush="Black"/>
         <RadioButton x:Name="rdbAdministrador" Content="Administrateur" HorizontalAlignment="Left" Margin="413,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbAdministrador_Checked" FontWeight="Bold" Background="White" Foreground="Black" BorderBrush="Black"/>
-        <Label x:Name="lbNombre" Content="Prénom:" HorizontalAlignment="Left" Margin="115,140,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <Label x:Name="lbApPaterno" Content="Nom du père:" HorizontalAlignment="Left" Margin="115,185,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <TextBox x:Name="txtApPaterno" HorizontalAlignment="Left" Height="28" Margin="115,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
-        <Label x:Name="lbApMaterno" Content="Nom du mère:" HorizontalAlignment="Left" Margin="362,185,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <TextBox x:Name="txtApMaterno" HorizontalAlignment="Left" Height="28" Margin="362,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="28" Margin="206,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
-        <Label x:Name="lbFechaNacim" Content="Date de naissance:" HorizontalAlignment="Left" Margin="115,252,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <DatePicker x:Name="dtpFechaNacim" Margin="286,254,50,0" VerticalAlignment="Top" Width="260" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
-        <Label x:Name="lbCorreo" Content="Email:" HorizontalAlignment="Left" Margin="115,283,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="28" Margin="115,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
-        <ComboBox x:Name="cmbNivelCurso" HorizontalAlignment="Left" Margin="267,352,0,0" VerticalAlignment="Top" Width="126" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black">
+        <Label x:Name="lbNombre" Content="Prénom:" HorizontalAlignment="Left" Margin="115,98,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
+        <Label x:Name="lbApPaterno" Content="Nom du père:" HorizontalAlignment="Left" Margin="115,143,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
+        <TextBox x:Name="txtApPaterno" HorizontalAlignment="Left" Height="28" Margin="115,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
+        <Label x:Name="lbApMaterno" Content="Nom du mère:" HorizontalAlignment="Left" Margin="362,143,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
+        <TextBox x:Name="txtApMaterno" HorizontalAlignment="Left" Height="28" Margin="362,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="28" Margin="206,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
+        <Label x:Name="lbFechaNacim" Content="Date de naissance:" HorizontalAlignment="Left" Margin="115,210,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
+        <DatePicker x:Name="dtpFechaNacim" Margin="286,212,50,0" VerticalAlignment="Top" Width="260" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
+        <Label x:Name="lbCorreo" Content="Email:" HorizontalAlignment="Left" Margin="115,241,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="28" Margin="115,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
+        <ComboBox x:Name="cmbNivelCurso" HorizontalAlignment="Left" Margin="267,336,0,0" VerticalAlignment="Top" Width="126" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black">
             <ComboBoxItem Content="A1.1"/>
             <ComboBoxItem Content="A1.2"/>
             <ComboBoxItem Content="A1.3"/>
@@ -41,7 +41,7 @@
             <ComboBoxItem Content="B2.5"/>
             <ComboBoxItem Content="B2.6"/>
         </ComboBox>
-        <Label x:Name="lbNivelCurso" Content="Niveau et cours:" HorizontalAlignment="Left" Margin="115,349,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
+        <Label x:Name="lbNivelCurso" Content="Niveau et cours:" HorizontalAlignment="Left" Margin="115,333,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
         <Label x:Name="lbUserActual" Content="Nom d'utilisateur de l'administrateur actuel:" HorizontalAlignment="Left" Margin="115,387,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
         <TextBox x:Name="txtUserActual" HorizontalAlignment="Left" Height="28" Margin="115,420,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
         <Label x:Name="lbPasswordActual" Content="Mot de passe actuel de l'administrateur:" HorizontalAlignment="Left" Margin="115,447,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
@@ -53,8 +53,6 @@
         <PasswordBox x:Name="pwdNuevoPassword" HorizontalAlignment="Left" Height="27" Margin="115,601,0,0" VerticalAlignment="Top" Width="267" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
         <PasswordBox x:Name="pwdPasswordActual" HorizontalAlignment="Left" Height="27" Margin="115,482,0,0" VerticalAlignment="Top" Width="267" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
         <Button x:Name="btnAgregarUsuario" Content="Ajouter l'utilisateur" HorizontalAlignment="Left" Height="62" Margin="263,708,0,0" VerticalAlignment="Top" Width="167" Background="#FFB40000" FontWeight="Bold" Foreground="White" FontSize="16" Click="BtnAgregarUsuario_Click" BorderBrush="Black" Cursor="Hand"/>
-        <Label x:Name="lbMatricula" Content="Inscription:" HorizontalAlignment="Left" Margin="115,92,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Height="28" Margin="226,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
         <DockPanel HorizontalAlignment="Left" Height="791" LastChildFill="False" VerticalAlignment="Top" Width="98">
             <DockPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
