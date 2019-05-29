@@ -39,14 +39,10 @@ namespace GEMAF
 			txtCorreo.IsEnabled = true;
 			cmbNivelCurso.IsEnabled = true;
 			btnAgregarUsuario.IsEnabled = true;
-
-			lbUserActual.IsEnabled = false;
-			lbPasswordActual.IsEnabled = false;
+			
 			lbNuevoUser.IsEnabled = false;
 			lbNuevoPassword.IsEnabled = false;
 			lbConfirmarNuevoPassword.IsEnabled = false;
-			txtUserActual.IsEnabled = false;
-			pwdPasswordActual.IsEnabled = false;
 			txtNuevoUser.IsEnabled = false;
 			pwdNuevoPassword.IsEnabled = false;
 			pwdConfirmarNuevoPassword.IsEnabled = false;
@@ -68,13 +64,9 @@ namespace GEMAF
 			cmbNivelCurso.IsEnabled = false;
 			btnAgregarUsuario.IsEnabled = true;
 
-			lbUserActual.IsEnabled = false;
-			lbPasswordActual.IsEnabled = false;
 			lbNuevoUser.IsEnabled = false;
 			lbNuevoPassword.IsEnabled = false;
 			lbConfirmarNuevoPassword.IsEnabled = false;
-			txtUserActual.IsEnabled = false;
-			pwdPasswordActual.IsEnabled = false;
 			txtNuevoUser.IsEnabled = false;
 			pwdNuevoPassword.IsEnabled = false;
 			pwdConfirmarNuevoPassword.IsEnabled = false;
@@ -96,31 +88,19 @@ namespace GEMAF
 			cmbNivelCurso.IsEnabled = false;
 			btnAgregarUsuario.IsEnabled = true;
 
-			lbUserActual.IsEnabled = true;
-			lbPasswordActual.IsEnabled = true;
 			lbNuevoUser.IsEnabled = true;
 			lbNuevoPassword.IsEnabled = true;
 			lbConfirmarNuevoPassword.IsEnabled = true;
-			txtUserActual.IsEnabled = true;
-			pwdPasswordActual.IsEnabled = true;
 			txtNuevoUser.IsEnabled = true;
 			pwdNuevoPassword.IsEnabled = true;
 			pwdConfirmarNuevoPassword.IsEnabled = true;
-
-			MessageBox.Show("Un nouvel administrateur sera ajouté, " +
-				"cela implique que l'administrateur actuel " +
-	"est supprimé car il ne peut y avoir qu'un seul administrateur" +
- " à la fois. La présence de l'administrateur actuel est " +
- "nécessaire pour autoriser l'enregistrement du nouvel administrateur dans le logiciel GEMAF.", "",
- MessageBoxButton.OK, MessageBoxImage.Warning);
 		}
 
 		private void BtnAgregarUsuario_Click(object sender, RoutedEventArgs e)
 		{
 			if(rdbAlumno.IsChecked==false || rdbMaestro.IsChecked==false || rdbAdministrador.IsChecked==false
 				 || txtNombre.Text=="" || txtApPaterno.Text=="" || txtApMaterno.Text=="" 
-				 || dtpFechaNacim.Text=="" || txtCorreo.Text=="" || txtUserActual.Text=="" 
-				 || pwdPasswordActual.Password=="" || txtNuevoUser.Text==""
+				 || dtpFechaNacim.Text=="" || txtCorreo.Text=="" || txtNuevoUser.Text==""
 				  || pwdNuevoPassword.Password=="" || pwdConfirmarNuevoPassword.Password=="")
 			{
 				MessageBox.Show("Complétez toutes les données pour effectuer l'opération", ""
