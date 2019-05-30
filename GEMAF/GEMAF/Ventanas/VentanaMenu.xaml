@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="GEMAF (Gestor de Mediateca de la Alianza Francesa)" Height="761.296" Width="1402.664" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closed="Window_Closed">
+        Title="GEMAF (Gestor de Mediateca de la Alianza Francesa)" Height="761.296" Width="1402.664" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closed="Window_Closed" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <DockPanel HorizontalAlignment="Left" Height="522" LastChildFill="False" Margin="0,210,0,0" VerticalAlignment="Top" Width="291">
             <DockPanel.Background>

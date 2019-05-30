@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Retour de l'article | GEMAF" Height="779.258" Width="1140.388" WindowStartupLocation="CenterScreen" Background="#FFE7E7E7">
+        Title="Retour de l'article | GEMAF" Height="779.258" Width="1140.388" WindowStartupLocation="CenterScreen" Background="#FFE7E7E7" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
-        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="31" Margin="374,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="18" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="31" Margin="374,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black"/>
         <Label x:Name="label" Content="ID d'article:" HorizontalAlignment="Left" Margin="261,30,0,0" VerticalAlignment="Top" FontSize="18" Width="134" FontWeight="Bold" Foreground="Black"/>
         <Button x:Name="txtBuscarPrestamo" Content="Chercher le prêt" HorizontalAlignment="Left" Height="54" Margin="627,18,0,0" VerticalAlignment="Top" Width="134" Background="#FFB40000" BorderBrush="Black" FontWeight="Bold" Foreground="White" FontSize="14" Cursor="Hand" RenderTransformOrigin="-0.213,0.86"/>
         <Rectangle Fill="#FFCDCDCD" HorizontalAlignment="Left" Height="470" Margin="126,88,0,0" Stroke="Black" VerticalAlignment="Top" Width="484"/>
@@ -20,7 +20,7 @@
         <Label x:Name="label1_Copy4" Content="Noms:" HorizontalAlignment="Left" Margin="648,208,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
         <Label x:Name="label1_Copy5" Content="Niveau et cours:" HorizontalAlignment="Left" Margin="648,269,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
         <Label x:Name="label1_Copy6" Content="Date limite pour retourner l'article:" HorizontalAlignment="Left" Margin="648,329,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
-        <TextBox x:Name="txtPenalizacion" HorizontalAlignment="Left" Height="140" Margin="126,596,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="758" FontSize="18" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtPenalizacion" HorizontalAlignment="Left" Height="140" Margin="126,596,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="758" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black"/>
         <Label x:Name="label1_Copy7" Content="Commentaires:" HorizontalAlignment="Left" Margin="126,560,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Foreground="Black"/>
         <Button x:Name="btnRegistrarDevolucion" Content="Enregistrer le retour" HorizontalAlignment="Left" Height="83" Margin="912,624,0,0" VerticalAlignment="Top" Width="199" FontSize="18" Click="BtnRegistrarDevolucion_Click" Background="#FFB40000" BorderBrush="Black" FontWeight="Bold" Foreground="White" Cursor="Hand"/>
         <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="31" Margin="149,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" FontSize="18" Background="White" Foreground="Black" BorderBrush="Black" IsReadOnly="True"/>

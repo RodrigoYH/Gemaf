@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Nouveau prêt | GEMAF" Height="698.222" Width="1182.064" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD">
+        Title="Nouveau prêt | GEMAF" Height="698.222" Width="1182.064" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="396" Margin="140,94,0,0" Stroke="Black" VerticalAlignment="Top" Width="484"/>
         <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="31" Margin="139,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" FontSize="18" BorderBrush="Black"/>

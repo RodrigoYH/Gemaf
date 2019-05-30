@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Gestion de tablettes | GEMAF" Height="471.951" Width="849.39" WindowStartupLocation="CenterScreen">
+        Title="Gestion de tablettes | GEMAF" Height="471.951" Width="849.39" WindowStartupLocation="CenterScreen" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <DockPanel HorizontalAlignment="Left" Height="442" LastChildFill="False" VerticalAlignment="Top" Width="109">
             <DockPanel.Background>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Modifier l'utilisateur | GEMAF" Height="544.101" Width="579.974" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD">
+        Title="Modifier l'utilisateur | GEMAF" Height="544.101" Width="579.974" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <Label x:Name="lbNombre" Content="Prénom:" HorizontalAlignment="Left" Margin="94,124,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontStyle="Italic" Foreground="Black"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="94,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="458" FontSize="18"/>

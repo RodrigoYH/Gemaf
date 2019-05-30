@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Nouvel utilisateur | GEMAF" Height="724.806" Width="602.425" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD">
+        Title="Nouvel utilisateur | GEMAF" Height="724.806" Width="602.425" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <Label x:Name="label" Content="Sélectionnez le type d'utilisateur:" HorizontalAlignment="Left" Margin="115,6,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="Black"/>
         <RadioButton x:Name="rdbAlumno" Content="Étudiant" HorizontalAlignment="Left" Margin="141,55,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbAlumno_Checked" FontWeight="Bold" Background="White" Foreground="Black" BorderBrush="Black"/>

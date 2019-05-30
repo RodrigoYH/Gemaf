@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Modifier l'article | GEMAF" Height="644.873" Width="653.539" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD" Loaded="Window_Loaded">
+        Title="Modifier l'article | GEMAF" Height="644.873" Width="653.539" WindowStartupLocation="CenterScreen" Background="#FFCDCDCD" Loaded="Window_Loaded" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <Label x:Name="label" Content="ID d'article:" HorizontalAlignment="Left" Margin="166,22,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
         <Label x:Name="label_Copy" Content="Titre:" HorizontalAlignment="Left" Margin="130,150,0,0" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
@@ -28,15 +28,9 @@
             <ComboBoxItem Content="C"/>
             <ComboBoxItem Content="D"/>
         </ComboBox>
-        <ComboBox x:Name="cmbCategoria" HorizontalAlignment="Left" Height="31" Margin="266,345,0,0" VerticalAlignment="Top" Width="271" FontSize="16" Background="White" BorderBrush="Black">
-
-        </ComboBox>
-        <ComboBox x:Name="cmbSeccion" HorizontalAlignment="Left" Height="31" Margin="266,405,0,0" VerticalAlignment="Top" Width="289" FontSize="16" Background="White" BorderBrush="Black">
-
-        </ComboBox>
-        <ComboBox x:Name="cmbLocacion" HorizontalAlignment="Left" Height="31" Margin="266,464,0,0" VerticalAlignment="Top" Width="324" FontSize="16" Background="White" BorderBrush="Black">
-
-        </ComboBox>
+        <ComboBox x:Name="cmbCategoria" HorizontalAlignment="Left" Height="31" Margin="266,345,0,0" VerticalAlignment="Top" Width="271" FontSize="16" Background="White" BorderBrush="Black"/>
+        <ComboBox x:Name="cmbSeccion" HorizontalAlignment="Left" Height="31" Margin="266,405,0,0" VerticalAlignment="Top" Width="289" FontSize="16" Background="White" BorderBrush="Black"/>
+        <ComboBox x:Name="cmbLocacion" HorizontalAlignment="Left" Height="31" Margin="266,464,0,0" VerticalAlignment="Top" Width="324" FontSize="16" Background="White" BorderBrush="Black"/>
         <TextBox x:Name="txtAutorDirector" HorizontalAlignment="Left" Height="29" Margin="286,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="18" Background="White" BorderBrush="Black"/>
         <Button x:Name="btnGuardar" Content="Enregistrer les modifications" HorizontalAlignment="Left" Height="67" Margin="247,527,0,0" VerticalAlignment="Top" Width="269" FontSize="18" Click="BtnGuardar_Click_1" FontWeight="Bold" Background="#FFB40000" Foreground="White" Cursor="Hand" BorderBrush="Black"/>
         <DockPanel HorizontalAlignment="Left" Height="615" LastChildFill="False" VerticalAlignment="Top" Width="109">

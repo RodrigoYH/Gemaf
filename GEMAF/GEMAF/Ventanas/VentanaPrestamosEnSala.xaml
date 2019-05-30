@@ -5,31 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Prêts de chambre | GEMAF" Height="638.428" Width="1057.649" WindowStartupLocation="CenterScreen" Background="#FFA3A3A3">
+        Title="Prêts de chambre | GEMAF" Height="638.428" Width="1057.649" WindowStartupLocation="CenterScreen" Background="#FFA3A3A3" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="216" Margin="10,10,0,0" VerticalAlignment="Top" Width="1031"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="357" Margin="10,242,0,0" Stroke="Black" VerticalAlignment="Top" Width="506"/>
-        <TextBox x:Name="txtIdLibro" HorizontalAlignment="Left" Height="23" Margin="106,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" FontSize="14" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtIdLibro" HorizontalAlignment="Left" Height="23" Margin="106,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" FontSize="14" BorderBrush="Black"/>
         <Label x:Name="label_Copy" Content="ID du livre:" HorizontalAlignment="Left" Margin="106,265,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
         <Button x:Name="btnBuscar" Content="Chercher" HorizontalAlignment="Left" Margin="317,274,0,0" VerticalAlignment="Top" Width="105" Height="42" FontSize="16" Background="#FFB40000" FontWeight="Bold" Foreground="White" Cursor="Hand" BorderBrush="Black"/>
         <Label x:Name="label_Copy1" Content="Titre:" HorizontalAlignment="Left" Margin="68,355,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="23" Margin="121,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" FontSize="14" IsReadOnly="True" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="23" Margin="121,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" FontSize="14" IsReadOnly="True" BorderBrush="Black"/>
         <Label x:Name="label_Copy2" Content="Auteur:" HorizontalAlignment="Left" Margin="56,397,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtAutor" HorizontalAlignment="Left" Height="23" Margin="121,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="14" IsReadOnly="True" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtAutor" HorizontalAlignment="Left" Height="23" Margin="121,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="14" IsReadOnly="True" BorderBrush="Black"/>
         <Label x:Name="label_Copy3" Content="Catégorie:" HorizontalAlignment="Left" Margin="38,441,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtCategoria" HorizontalAlignment="Left" Height="23" Margin="121,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="14" IsReadOnly="True" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtCategoria" HorizontalAlignment="Left" Height="23" Margin="121,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="14" IsReadOnly="True" BorderBrush="Black"/>
         <Label x:Name="label_Copy4" Content="Section:" HorizontalAlignment="Left" Margin="52,485,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtSeccion" HorizontalAlignment="Left" Height="23" Margin="121,489,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" FontSize="14" IsReadOnly="True" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtSeccion" HorizontalAlignment="Left" Height="23" Margin="121,489,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" FontSize="14" IsReadOnly="True" BorderBrush="Black"/>
         <Label x:Name="label_Copy5" Content="Location:" HorizontalAlignment="Left" Margin="44,527,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtLocacion" HorizontalAlignment="Left" Height="23" Margin="121,531,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299" FontSize="14" IsReadOnly="True" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtLocacion" HorizontalAlignment="Left" Height="23" Margin="121,531,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299" FontSize="14" IsReadOnly="True" BorderBrush="Black"/>
         <Button x:Name="btnAutorizarPrestamo" Content="Autoriser le prêt en chambre" HorizontalAlignment="Left" Margin="554,514,0,0" VerticalAlignment="Top" Width="232" Height="61" FontSize="16" Click="BtnAutorizarPrestamo_Click" Background="#FFB40000" FontWeight="Bold" Foreground="White" Cursor="Hand" BorderBrush="Black"/>
         <Button x:Name="btnFinalizarPrestamo" Content="Terminer le prêt en chambre" HorizontalAlignment="Left" Margin="801,514,0,0" VerticalAlignment="Top" Width="224" Height="61" FontSize="16" Click="BtnFinalizarPrestamo_Click" Background="#FFB40000" FontWeight="Bold" Foreground="White" Cursor="Hand" BorderBrush="Black"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="242" Margin="540,242,0,0" Stroke="Black" VerticalAlignment="Top" Width="501"/>
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="580,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" FontSize="14" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="580,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" FontSize="14" BorderBrush="Black"/>
         <Label x:Name="label" Content="Prénom:" HorizontalAlignment="Left" Margin="580,274,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="743,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="14" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="743,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="14" BorderBrush="Black"/>
         <Label x:Name="label_Copy6" Content="Numéro de téléphone:" HorizontalAlignment="Left" Margin="580,353,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
-        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="580,425,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" FontSize="14" FontWeight="Bold" BorderBrush="Black"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="580,425,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" FontSize="14" BorderBrush="Black"/>
         <Label x:Name="label_Copy7" Content="Email:" HorizontalAlignment="Left" Margin="580,397,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
 
     </Grid>

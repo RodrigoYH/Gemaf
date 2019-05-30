@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GEMAF"
         mc:Ignorable="d"
-        Title="Nouvel article | GEMAF" Height="749.127" Width="575.473" Background="#FFCDCDCD" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="Nouvel article | GEMAF" Height="749.127" Width="575.473" Background="#FFCDCDCD" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="/GEMAF;component/Imagenes/AF ICONO.png">
     <Grid>
         <RadioButton x:Name="rdbLibro" Content="Livre" HorizontalAlignment="Left" Margin="222,62,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbLibro_Checked" FontWeight="Bold" Foreground="Black" Background="White"/>
         <RadioButton x:Name="rdbPelicula" Content="Film" HorizontalAlignment="Left" Margin="319,62,0,0" VerticalAlignment="Top" FontSize="18" Checked="RdbPelicula_Checked" FontWeight="Bold" Foreground="Black" Background="White"/>
@@ -24,9 +24,7 @@
             <ComboBoxItem Content="D"/>
         </ComboBox>
         <Label x:Name="lbCategoria" Content="Catégorie:" HorizontalAlignment="Left" Margin="122,319,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
-        <ComboBox x:Name="cmbCategoria" HorizontalAlignment="Left" Margin="223,322,0,0" VerticalAlignment="Top" Width="287" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black">
-
-        </ComboBox>
+        <ComboBox x:Name="cmbCategoria" HorizontalAlignment="Left" Margin="223,322,0,0" VerticalAlignment="Top" Width="287" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black"/>
         <Label x:Name="lbSeccion" Content="Section:" HorizontalAlignment="Left" Margin="139,378,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" IsEnabled="False" Foreground="Black"/>
         <ComboBox x:Name="cmbSeccion" HorizontalAlignment="Left" Margin="224,381,0,0" VerticalAlignment="Top" Width="288" FontSize="18" IsEnabled="False" Background="White" BorderBrush="Black">
             <ComboBoxItem/>
