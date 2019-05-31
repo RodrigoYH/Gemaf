@@ -59,7 +59,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Modelos\Entidades\Alumno.cs" />
     <Compile Include="Modelos\Entidades\Articulo.cs" />
+    <Compile Include="Modelos\Entidades\CopiaLibro.cs" />
+    <Compile Include="Modelos\Entidades\CopiaPelicula.cs" />
+    <Compile Include="Modelos\Entidades\Encargado.cs" />
+    <Compile Include="Modelos\Entidades\Externo.cs" />
+    <Compile Include="Modelos\Entidades\Libro.cs" />
+    <Compile Include="Modelos\Entidades\Pelicula.cs" />
+    <Compile Include="Modelos\Entidades\Prestamo.cs" />
+    <Compile Include="Modelos\Entidades\Tableta.cs" />
+    <Compile Include="Modelos\Entidades\Usuario.cs" />
     <Compile Include="Ventanas\VentanaModificarTableta.xaml.cs">
       <DependentUpon>VentanaModificarTableta.xaml</DependentUpon>
     </Compile>
