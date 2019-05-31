@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Modelos\Entidades\Articulo.cs" />
     <Compile Include="Ventanas\VentanaModificarTableta.xaml.cs">
       <DependentUpon>VentanaModificarTableta.xaml</DependentUpon>
     </Compile>
@@ -176,6 +177,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imagenes\USUARIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modelos\Interfaces\" />
+    <Folder Include="Modelos\Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
