@@ -8,7 +8,7 @@ using System.Data;
 
 namespace GEMAF.Modelos.Interfaces
 {
-    interface ICopiaCopiaLibro
+    interface ICopiaLibro
     {
         bool AgregarCopiaLibro(CopiaLibro copia);
         bool ModificarCopiaLibro(CopiaLibro copia);

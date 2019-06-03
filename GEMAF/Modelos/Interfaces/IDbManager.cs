@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
-using GEMAF.Modelos.Entidades;
+using System.Data.SqlClient;
 
 namespace GEMAF.Modelos.Interfaces
 {
-    interface IPrestamo
+    interface IDbManager
     {
-        bool InsertarPrestamo(Prestamo prestamo);
+        SqlConnection Conectar();
     }
 }
