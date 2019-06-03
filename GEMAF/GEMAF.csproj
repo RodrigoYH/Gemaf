@@ -70,6 +70,13 @@
     <Compile Include="Modelos\Entidades\Prestamo.cs" />
     <Compile Include="Modelos\Entidades\Tableta.cs" />
     <Compile Include="Modelos\Entidades\Usuario.cs" />
+    <Compile Include="Modelos\Interfaces\IAlumno.cs" />
+    <Compile Include="Modelos\Interfaces\ICopiaLibro.cs" />
+    <Compile Include="Modelos\Interfaces\ICopiaPelicula.cs" />
+    <Compile Include="Modelos\Interfaces\IEncargado.cs" />
+    <Compile Include="Modelos\Interfaces\ILibro.cs" />
+    <Compile Include="Modelos\Interfaces\IPelicula.cs" />
+    <Compile Include="Modelos\Interfaces\IPrestamo.cs" />
     <Compile Include="Ventanas\VentanaModificarTableta.xaml.cs">
       <DependentUpon>VentanaModificarTableta.xaml</DependentUpon>
     </Compile>
@@ -189,7 +196,6 @@
     <Resource Include="Imagenes\USUARIO.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Modelos\Interfaces\" />
     <Folder Include="Modelos\Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
