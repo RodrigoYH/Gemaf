@@ -59,6 +59,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\Entidades\Alumno.cs" />
+    <Compile Include="Models\Entidades\Articulo.cs" />
+    <Compile Include="Models\Entidades\CopiaLibro.cs" />
+    <Compile Include="Models\Entidades\CopiaPelicula.cs" />
+    <Compile Include="Models\Entidades\Encargado.cs" />
+    <Compile Include="Models\Entidades\Externo.cs" />
+    <Compile Include="Models\Entidades\Libro.cs" />
+    <Compile Include="Models\Entidades\Pelicula.cs" />
+    <Compile Include="Models\Entidades\Prestamo.cs" />
+    <Compile Include="Models\Entidades\Tableta.cs" />
+    <Compile Include="Models\Entidades\Usuario.cs" />
+    <Compile Include="Models\Interfaces\IAlumno.cs" />
+    <Compile Include="Models\Interfaces\ICopiaLibro.cs" />
+    <Compile Include="Models\Interfaces\ICopiaPelicula.cs" />
+    <Compile Include="Models\Interfaces\IDbManager.cs" />
+    <Compile Include="Models\Interfaces\IEncargado.cs" />
+    <Compile Include="Models\Interfaces\ILibro.cs" />
+    <Compile Include="Models\Interfaces\IPelicula.cs" />
+    <Compile Include="Models\Interfaces\IPrestamo.cs" />
+    <Compile Include="Models\Models\AlumnoModel.cs" />
+    <Compile Include="Models\Models\CopiaLibroModel.cs" />
+    <Compile Include="Models\Models\DbManager.cs" />
+    <Compile Include="Models\Models\LibroModel.cs" />
+    <Compile Include="Models\Models\PrestamoModel.cs" />
     <Compile Include="Ventanas\VentanaModificarTableta.xaml.cs">
       <DependentUpon>VentanaModificarTableta.xaml</DependentUpon>
     </Compile>
