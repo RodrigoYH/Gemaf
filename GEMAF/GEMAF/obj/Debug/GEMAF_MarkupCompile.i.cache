@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\App.xaml
-11-817613164
+11-112699851
 
-19-1605425343
+19-481094936
 17-160727161
-MainWindow.xaml;Ventanas\VentanaNuevaTableta.xaml;Ventanas\VentanaGestionTabletas.xaml;Ventanas\VentanaModificarUsuario.xaml;Ventanas\VentanaPrestamosEnSala.xaml;Ventanas\VentanaDevolucion.xaml;Ventanas\VentanaMenu.xaml;Ventanas\VentanaModificarArticulo.xaml;Ventanas\VentanaNuevoArticulo.xaml;Ventanas\VentanaNuevoPrestamo.xaml;Ventanas\VentanaNuevoUsuario.xaml;
+VentanaLogin.xaml;Ventanas\VentanaNuevaTableta.xaml;Ventanas\VentanaGestionTabletas.xaml;Ventanas\VentanaModificarUsuario.xaml;Ventanas\VentanaPrestamosEnSala.xaml;Ventanas\VentanaDevolucion.xaml;Ventanas\VentanaMenu.xaml;Ventanas\VentanaModificarArticulo.xaml;Ventanas\VentanaNuevoArticulo.xaml;Ventanas\VentanaNuevoPrestamo.xaml;Ventanas\VentanaNuevoUsuario.xaml;
 
 True
 

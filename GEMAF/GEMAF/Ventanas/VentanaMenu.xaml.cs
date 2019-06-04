@@ -70,8 +70,8 @@ namespace GEMAF
 
 		private void BtnCerrarSesion_Click(object sender, RoutedEventArgs e)
 		{
-			MainWindow main = new MainWindow();
-			main.Show();
+			VentanaLogin login = new VentanaLogin();
+			login.Show();
 			this.Hide();
 		}
 

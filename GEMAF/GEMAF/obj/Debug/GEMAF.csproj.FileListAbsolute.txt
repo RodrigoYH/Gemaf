@@ -37,7 +37,6 @@ C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\bin\Debug\GEMAF.exe.config
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\bin\Debug\GEMAF.exe
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\bin\Debug\GEMAF.pdb
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF.csprojAssemblyReference.cache
-C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\MainWindow.g.cs
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaNuevaTableta.g.cs
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaGestionTabletas.g.cs
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaModificarUsuario.g.cs
@@ -51,7 +50,6 @@ C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaNuevoUsuar
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\App.g.cs
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF_MarkupCompile.cache
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF_MarkupCompile.lref
-C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\MainWindow.baml
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaNuevaTableta.baml
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaGestionTabletas.baml
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\Ventanas\VentanaModificarUsuario.baml
@@ -68,3 +66,5 @@ C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF.csproj.GenerateResou
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF.csproj.CoreCompileInputs.cache
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF.exe
 C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\GEMAF.pdb
+C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\VentanaLogin.g.cs
+C:\Users\rodri\Desktop\GEMAFgit\GEMAF\GEMAF\obj\Debug\VentanaLogin.baml

@@ -89,7 +89,7 @@
     <Compile Include="Ventanas\VentanaNuevoUsuario.xaml.cs">
       <DependentUpon>VentanaNuevoUsuario.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="VentanaLogin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -97,8 +97,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="VentanaLogin.xaml.cs">
+      <DependentUpon>VentanaLogin.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Ventanas\VentanaNuevaTableta.xaml">
